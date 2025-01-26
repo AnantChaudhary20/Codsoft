@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Welcome to My Landing Page</h1>
+      <nav>
+        <ul>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="hero">
+    <div class="container">
+      <h2>Build Something Amazing</h2>
+      <p>Explore the possibilities of web development with our tools and guides.</p>
+      <a href="#features" class="btn">Learn More</a>
+    </div>
+  </section>
+
+  <section id="features">
+    <div class="container">
+      <h2>Features</h2>
+      <div class="feature-box">
+        <div class="feature">
+          <h3>Responsive Design</h3>
+          <p>Ensure your site looks great on all devices.</p>
+        </div>
+        <div class="feature">
+          <h3>Customizable</h3>
+          <p>Tailor your design to suit your needs.</p>
+        </div>
+        <div class="feature">
+          <h3>Easy to Use</h3>
+          <p>Get started quickly with beginner-friendly tools.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 My Landing Page. All rights reserved.</p>
+    </div>
+  </footer>
+<style>
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  color: #333;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  background: #007BFF;
+  color: #fff;
+  padding: 1em 0;
+}
+
+header h1 {
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 1em;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#hero {
+  background: #f4f4f4;
+  padding: 2em 0;
+  text-align: center;
+}
+
+#hero h2 {
+  margin-bottom: 1em;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.5em 1.5em;
+  color: #fff;
+  background: #007BFF;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background: #0056b3;
+}
+
+#features {
+  padding: 2em 0;
+}
+
+.feature-box {
+  display: flex;
+  justify-content: space-between;
+  gap: 1em;
+}
+
+.feature {
+  background: #f4f4f4;
+  padding: 1em;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1em 0;
+  margin-top: 2em;
+}
+</style>
+</body>
+</html>
